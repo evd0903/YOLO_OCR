@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 7
+names: ['Article', 'Body', 'Date', 'Heading', 'Highlights', 'Image', 'Name']
+
+roboflow:
+  workspace: gurwinder-singh-gpmpp
+  project: newspaper-rtmjp
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/gurwinder-singh-gpmpp/newspaper-rtmjp/dataset/1
